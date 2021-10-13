@@ -69,6 +69,7 @@ class ZaberControlUI(QMainWindow):
         self.setWindowTitle("Zaber control")
         self.show()
 
+    #part of the ui controlling the motor for the rotation
     def tab1UI2(self,angle):
         self.tab1.stateBTN = 1
         self.tab1.rotFlag = 1
