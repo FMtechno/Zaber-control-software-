@@ -281,6 +281,7 @@ class Worker(QObject):
             print("there is a problem with the radio button program, you need to fix it!!!!")
         self.finished.emit()
 
+#starting the pyqt app and the opening the connection with the motors
 def main():
     with Connection.open_serial_port("COM5") as connection:
         with open("style.css") as f:
